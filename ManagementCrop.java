@@ -27,8 +27,19 @@ public class ManagementCrop {
 //            System.out.println(Quantity[i]);
 //        }
 //      
-        
+         System.out.println("1.Adding New Crop");
+         System.out.println("2.Update Quantity New Crop");
+         System.out.println("3.Disply Current Inventory");
+        System.out.println(" Entering The Number bY Choose From This Above Menu :");
+        int num=in.nextInt();
+        if(num>1){
+         if(num==1){
+           new_crop=in.next();
+    NameOfCrops[len]=new_crop;
+    for(int i=0;i<NameOfCrops.length-1;i++){
+                          System.out.println(NameOfCrops[i]); 
+        }}
     }
-         }
+    }    
         
 
