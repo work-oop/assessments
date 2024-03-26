@@ -39,6 +39,14 @@ public class ManagementCrop {
     for(int i=0;i<NameOfCrops.length-1;i++){
                           System.out.println(NameOfCrops[i]); 
         }}
+             if(num==2){
+    System.out.println("Update Quantity");
+        for(int i=0;i<quantity.length-1;i++){
+        quantity[i]=in.nextInt();     
+        }
+    }
+
+         }
     }
     }    
         
